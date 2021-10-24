@@ -153,7 +153,7 @@ if(isset($_POST['Login']))
 				$_SESSION['username'] = $username;
 				$_SESSION['wallet'] = $getinfouser['wallet'];
 				$_SESSION['active'] = $getinfouser['active'];
-				echo "<script>alert('Please activate your account first before you can play.')</script>";
+				//echo "<script>alert('Please activate your account first before you can play.')</script>";
 				echo '<meta http-equiv="refresh" content="0;url=index.php" />';
 			}
 			else
@@ -162,7 +162,7 @@ if(isset($_POST['Login']))
 				$_SESSION['username'] = $username;
 				$_SESSION['wallet'] = $getinfouser['wallet'];
 				$_SESSION['active'] = $getinfouser['active'];
-				echo "<script>alert('Your account is already activated.')</script>";
+				//echo "<script>alert('Your account is already activated.')</script>";
 				echo '<meta http-equiv="refresh" content="0;url=index.php" />';
 			}
 			
