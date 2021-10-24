@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Failed</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+span {
+  font-size: 200px;
+}
+</style>
+</head>
+<body>
+<center>
+<span>&#128532;</span>
+<h4>You Have Insufficient Aureus Token, You Need At Least 500,000 Aureus Token.</h4>
+<div class="loader"></div>
+<p>You will be redirected in <label id="counter">10</label> second(s).</p>
+<script type="text/javascript">
+function countdown() {
+    var i = document.getElementById('counter');
+    if (parseInt(i.innerHTML)<=0) {
+        location.href = 'index.php';
+    }
+if (parseInt(i.innerHTML)!=0) {
+    i.innerHTML = parseInt(i.innerHTML)-1;
+}
+}
+setInterval(function(){ countdown(); },1000);
+</script>
+</center>
+</body>
+</html>

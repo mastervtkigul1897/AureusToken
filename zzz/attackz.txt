@@ -1,0 +1,6 @@
+IP: 180.251.130.61
+Method: GET
+Value: 4'
+Script: C:/xampp56/htdocs/zzz/func_buy.php
+Time: Wednesday 25th 2021f August 2021 12:30:26 AM
+==================================
