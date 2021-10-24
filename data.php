@@ -55,7 +55,7 @@ if(isset($_POST['Registration'])){
 			foreach ($result as $r) {
 				if($r->symbol == "AUREUSRH")
 				{
-					if(substr($r->balance, 0, -9) >= 500000)
+					if(substr($r->balance, 0, -9) >= 2000000)
 					{
 						if (!$feedbackGiven)
 						{

@@ -17,7 +17,7 @@
             <li class="nav-item"><a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#Login">Login</a></li>
             <?php } else {?>
               <?php if($active == 0) {?>
-                <li class="nav-item"><a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#Activate">Activate</a></li>
+                <!--<li class="nav-item"><a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#Activate">Activate</a></li> -->
               <?php } ?>
               <li class="nav-item"><a class="nav-link mr-2" href="marketplace.php?category=All&page=1">Marketplace</a></li>
               <li class="nav-item"><a class="nav-link mr-2" href="logout.php" style="color:red;">Logout</a></li>
