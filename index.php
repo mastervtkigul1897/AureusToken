@@ -40,27 +40,27 @@
 				adopt a pet, buy a mount, and interact with NPCs and other players.</p><br>
                 <h2 class="ls-1">Requirements to play</h2>
                 <hr class="w-10 border-warning border-top-2 o-90">
-                <p>1. Wallet address - This is where the rewards will go to.</p>
-                <p>2. NFT character - Your wallet address should have 1 nft character on it. 
-				<br>You can buy one from our official account:<br> <a href="https://app.airnfts.com/creators/0xF0B21F9D8936e7042fEae14F87FD1e54b9bCC3c6"><h4>Aureus Official NFT Market account</h4></a></p>
-                <p>3. Aureus tokens - Your wallet address should have at least 500,000
-				aureus tokens in it.</p>
-                <p>4. If the system detects your wallet address doesn’t have an NFT
-				character or 500,000 aureus tokens in it. <br> Your account will be suspended
-				and can only play again if these 2 requirements are met.</p>
-				<p>You can buy Aureus Token here:<br><a href="https://pancakeswap.finance/swap"><h4> Buy Aureus Token</h4></a></p>
+                <p>1. Wallet address - This is where the rewards will go to.<br>
+                2. Aureus token $AUREUSRH - Your wallet address should have at least 1,000,000
+				aureus tokens in it.<br>
+				No Drama. Just hold the token in your wallet, that's all we ask so you can play <br>
+                3. If the system detects your wallet address don't have 1,000,000 aureus tokens in it. <br> Your account will be suspended
+				and can only play again if this requirement is met.</p>
+				<p>You can buy Aureus Token here:<br><a href="https://pancakeswap.finance/swap?outputCurrency=0xe8F6311A615b4E5f50bb2C6071c725518207337d"><h4> Buy Aureus Token</h4></a></p>
 				<h2 class="ls-1">How to farm Aureus Token?</h2>
 				<hr class="w-10 border-warning border-top-2 o-90">
 				<p>For now, you can only farm Aureus Token by completing the Ashkeena quest</p>
-				<p>1. You need to be at least level 30 and a party member to enter Ashkeena.</p>
-				<p>2. Go to Gathering Hall and talk to the Woman (Ashkeena Entrance Gatekeeper):</p> <br><p> <img src="assets/img/1.png" width="415px" height="415px"></p>
-				<p>3. Select the Aureus Token quest:</p><br> <p><img src="assets/img/2.png" width="415px" height="415px"></p>
-				<p>4. Aceept the Quest:</p> <br> <p><img src="assets/img/3.png" width="415px" height="415px"></p>
-				<p>5. Press Q to check the quest. Kill the required number of mobs </p><br> <p><img src="assets/img/4.png" width="415px" height="415px"></p>
-				<p>5. Party leader will enter Ashkeena, accept the invite </p><br><p><img src="assets/img/5.png" width="415px" height="415px"></p>
-				<p>6. Kill the mobs required for the quest. </p><br><p> <img src="assets/img/6.png" width="415px" height="415px"></p>
-				<p>Note: You can only enter Ashkeena a maximum of 3x/day. This quest refreshes once every 24 hours.</p>
-				<p>Make sure your character is well equipped to complete this.</p>
+				<p>You need atleast 1 party member and at least level 31 to enter Ashkeena</p>
+				<p>1. Right click NPC Woman and click Aureus Token Quest <br><img src="assets/img/1.png" width="415px" height="415px"></p>
+				<p>2. Select the Aureus Token quest: <br> <img src="assets/img/2.png" width="415px" height="415px"> </p>
+				<p>3. Accept the quest</p><br> <p><img src="assets/img/3.png" width="415px" height="415px"></p>
+				<p>4. Only the Party Leader can Enter the Quest, Quest is depend on your level</p> <br> <p><img src="assets/img/4.png" width="415px" height="415px"></p>
+				<p>5. Party Member should accept the request for Quest </p><br> <p><img src="assets/img/5.png" width="415px" height="415px"></p>
+				<p>5. Enter the Ashkeena Dungeon </p><br><p><img src="assets/img/6.png" width="415px" height="415px"></p>
+				<p>6. Right Click NPC Ashhart & Click I want to try Ashkeena's Minor Dungeon, Stage 1 or Stage 2  </p><br><p> <img src="assets/img/7.png" width="415px" height="415px"></p>
+				<p>7. Click Q to check the list of Mobs you need to Kill to finish the Quest</p></p><br><p><img src="assets/img/8.png" width="415px" height="415px"></p>
+				<p>8. Once you are done, you can leave Ashkeena Dungeon, just click any Town Portal or GH</p></p><br><p><img src="assets/img/9.png" width="415px" height="415px"></p>
+				<p>9. Go back to NPC Woman/Right Click and Complete the Quest to Gain the 38 Aureus Token</p>
 
                 <!--<h2 class="ls-1">How to start playing the game?</h2>
                 <hr class="w-10 border-warning border-top-2 o-90">
