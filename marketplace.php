@@ -341,20 +341,6 @@ $start_from = ($page-1) * $limit;
                             </div>
                           </li>
                           <li class="nav-item">
-                            <div class="py-1 px-3">
-                              <?php 
-                              if($active == 0)
-                              {
-                                echo '<label><i class="fa fa-tasks" aria-hidden="true"></i> NFT Not Activated</label>';
-                              }
-                              else
-                              {
-                                echo '<label><i class="fa fa-tasks" aria-hidden="true"></i> NFT Activated </label>';
-                              }
-                              ?>
-                            </div>
-                          </li>
-                          <li class="nav-item">
                             <div class="py-1 px-3" id="mydiv">
                               <?php 
                                 include('getpoints.php');
@@ -363,15 +349,76 @@ $start_from = ($page-1) * $limit;
                           </li>
                           <li class="nav-item">
                             <div class="py-1 px-3">
-                              <label><i class="fa fa-cog" aria-hidden="true"></i> <small>0x4578ABcBd290a7251f08be5fe524Ed1d58d73131</small></label>
+                              <label><i class="fa fa-cog" aria-hidden="true"></i> <small><?php echo $wallet; ?></small></label>
                             </div>
                           </li>
                         </ul>
                     </div>
                   </li>
                   <li class="nav-item text-light transition mt-4">
-                    <a href="" class="btn btn-warning d-block">Request Withdraw</a>
+                    <a  data-toggle="modal" data-target="#exampleModalCenter" class="btn btn-warning d-block">Request Withdraw</a>
                   </li>
+
+                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content" style="color:black;">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="form-group">
+                            <label id="emailHelp" class="form-text text-muted">Amount to Withdraw</label>
+                            <input type="number" class="form-control" name="amount" id="amount" value="0" required>
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <input type="hidden" id="check" name="check" value="check">
+                            <button type="button" name="withdraw" id="withdraw<?php echo $wallet; ?>" class="btn btn-success">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <script>
+                      $(document).ready(function() {
+                      
+                      $("#withdraw<?php echo $wallet; ?>").click(function() {
+                      
+                      var check = $("#check").val();
+                      var amount = $("#amount").val();
+                      
+                      $.ajax({
+                        type: "POST",
+                        url: "zzz/func_withdraw.php",
+                        data: {
+                          check: check,
+                          amount: amount,
+                        },
+                        cache: false,
+                        success: function(data) {
+                        $("#mydiv").load("getpoints.php")
+                        $("#mydiv").load("getpoints.php")
+                        $("#mydiv").load("getpoints.php")
+                        $('#message').fadeIn().html(data);  
+                        setTimeout(function(){  
+                            $('#message').fadeOut("Slow");  
+                        }, 10000000); 
+                        setTimeout(function(){
+                          $('#exampleModalCenter').modal('hide')
+                        }, 500);
+                        },
+                        error: function(xhr, status, error) {
+                        console.error(xhr);
+                        }
+                      });
+                      
+                      });
+                      
+                      });
+                  </script>
                 </ul>
               </div>
               <div class="filters border border-secondary rounded p-4">
@@ -379,7 +426,7 @@ $start_from = ($page-1) * $limit;
 
                   <li class="nav-item text-light transition mb-2 active">
                     <a href="" aria-expanded="false" data-toggle="collapse" class="nav-link py-2 px-3 text-uppercase  collapsed collapser collapser-active nav-link-border">
-                        <span class="p-collapsing-title">Purchase Message</span>
+                        <span class="p-collapsing-title">Action Message</span>
                     </a>
                     <div class="collapse nav-collapse show">
                         <ul class="list-unstyled py-2">

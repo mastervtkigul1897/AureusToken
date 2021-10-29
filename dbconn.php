@@ -8,7 +8,7 @@ include_once('sql_injection2.php');
 
 $serverName = "(local)" ;
 $uid        = 'sa'              ;
-$pwd        = 'Haha!!'        ;
+$pwd        = 'marvin163'        ;
 
 $connectionInfo = array( "UID"      =>  $uid        ,
                          "PWD"      =>  $pwd        ,
