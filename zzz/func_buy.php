@@ -55,9 +55,6 @@ foreach($_POST as $value)
             {
                 echo "QUERY ERROR";
             }
-			
-			
-            
         }
         else
         {
