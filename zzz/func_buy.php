@@ -32,9 +32,9 @@ foreach($_POST as $value)
         $stack = $getiteminfo['stack'];
         
 		
-		echo "The Marketplace is under maintenance. We will let know you know soon. <br> (The prices are not final yet)";
+		//echo "The Marketplace is under maintenance. We will let know you know soon. <br> (The prices are not final yet)";
 		
-        /*if($getuser['points'] >= $getiteminfo['price'])
+        if($getuser['points'] >= $getiteminfo['price'])
         {
             $updatepoints = sqlsrv_query($db, "UPDATE RohanUser.dbo.TUser set points = points - $price WHERE login_id = '$username'");
             if($updatepoints)
@@ -62,7 +62,7 @@ foreach($_POST as $value)
         else
         {
             echo 'Purchase Failed, You Have Insufficient Funds In Your Account';
-        }*/ 
+        }
     }
 
 ?>

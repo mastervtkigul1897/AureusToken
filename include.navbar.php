@@ -8,10 +8,11 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="nav navbar-nav ml-lg-auto">
             <li class="nav-item"><a class="nav-link mr-2" href="Aureus-Token-Whitepaper.pdf" target="_blank">Whitepaper</a></li>
+			<li class="nav-item"><a class="nav-link mr-2" href="TECHAUDITS_AUREUS.pdf" target="_blank">Audit Report</a></li>
             <li class="nav-item"><a class="nav-link mr-2" href="" data-scroll="#overview">ROI</a></li>
             <!--<li class="nav-item"><a class="nav-link mr-2" href="" data-scroll="#gallery">Whitepaper</a></l0i>-->
-            <li class="nav-item"><a class="nav-link mr-2" href="https://drive.google.com/file/d/1k_7cLdXp4R7kTq-5l38GPqj-m6u7VZNq/view" target="_blank">Download (GDrive)</a></li>
-			<li class="nav-item"><a class="nav-link mr-2" href="https://aureus-token.com/Aureus_Full.exe" target="_blank">Download (Direct)</a></li>
+            <li class="nav-item"><a class="nav-link mr-2" href="https://drive.google.com/file/d/1k_7cLdXp4R7kTq-5l38GPqj-m6u7VZNq/view" target="_blank">DL (GDrive)</a></li>
+			<li class="nav-item"><a class="nav-link mr-2" href="https://aureus-token.com/Aureus_Full.exe" target="_blank">DL (Direct)</a></li>
             <?php if(!$username) {?>
             <li class="nav-item"><a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#Registration">Register</a></li>
             <li class="nav-item"><a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#Login">Login</a></li>
